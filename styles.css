@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #12372A;
+}
+
+header{
+    display:flex;
+    gap:30rem;
+    margin: 2rem;
+}
+
+.name{
+    font-family: "Lexend Zetta" sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #FBFADA;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap:2rem;
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 400;
+}
+li>a{
+    text-decoration: none;
+    color: #FBFADA;
+}
+.image1{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.image2{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.image3{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.image4{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+.image5{
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    display: flex;
+}
+.hero>div{
+    width:50%;
+}
+.left{
+    padding-top: 7rem;
+    padding-left: 4rem;
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+}
+h1{
+    font-family: "Lexend Zetta" sans-serif;
+    text-align: center;
+    width:90%;
+    color:#ADBC9F;
+    line-height: 3rem;
+}
+.club{
+    font-family: "Sansita Swashed", system-ui;
+    font-size: 90px;
+    color:#FBFADA;
+}
+p{
+    padding-top: 5px;
+    padding-left: 130px;
+    color: #ADBC9F;
+}
+/* .images{
+    padding-top: 100px;
+} */
